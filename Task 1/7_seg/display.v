@@ -10,7 +10,7 @@ module display(
 *   Write logic for dynamic indication here.
 */
 
-dec_to_seg dec_to_seg(.data(b), .segments(segments));
+hex_to_seg hex_to_seg(.data(b), .segments(segments));
 
 endmodule
 
